@@ -1,0 +1,9 @@
+:root {
+	--font-family: 'Montserrat', Arial, helvetica sans-serif;
+}
+
+body {
+	--default-font: var(--font-family);
+
+	font-family: var(--default-font);
+}
