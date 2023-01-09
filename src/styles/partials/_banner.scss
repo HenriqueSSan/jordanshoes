@@ -33,7 +33,6 @@
 .l-banner {
 	&__texts {
 		width: 100%;
-		padding: 0 37px 0 20px;
 
 		h1 {
 			font-size: 28px;
@@ -44,12 +43,6 @@
 		p {
 			font-size: 16px;
 			line-height: 28.8px;
-		}
-
-		@media screen and (min-width: 1440px) {
-			width: 89.58333333333334%;
-			padding: 0;
-			margin: 0 auto;
 		}
 
 		@media screen and (min-width: 2500px) {
