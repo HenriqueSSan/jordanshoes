@@ -2,6 +2,11 @@
 	--font-family: 'Montserrat', Arial, helvetica sans-serif;
 }
 
+html,
+body {
+	min-height: 100%;
+}
+
 body {
 	--default-font: var(--font-family);
 
