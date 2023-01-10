@@ -14,7 +14,7 @@
 	}
 
 	&__container {
-		p {
+		.l-footer__copyright {
 			font-size: 18px;
 			line-height: 35.31px;
 
@@ -24,8 +24,24 @@
 
 			@media screen and (min-width: 2500px) {
 				font-size: 36px;
-				line-height: auto;
+				line-height: normal;
 			}
+		}
+	}
+
+	&__developer {
+		width: 100%;
+		font-size: 12px;
+		line-height: 23.31px;
+		margin-top: 20px;
+
+		@media screen and (min-width: 1025px) {
+			line-height: 12.94px;
+		}
+
+		@media screen and (min-width: 2500px) {
+			font-size: 24px;
+			line-height: normal;
 		}
 	}
 }
