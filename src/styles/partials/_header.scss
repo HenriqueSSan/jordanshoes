@@ -1,0 +1,45 @@
+.l-header {
+	position: sticky;
+	top: 0;
+	left: 0;
+
+	&__container-top {
+		padding: 20px 16px;
+	}
+
+	&__container-bottom {
+		padding: 15px 16px 16px;
+	}
+}
+
+.l-header__container-top {
+	p {
+		font-size: 16px;
+		line-height: 31.39px;
+
+		@media screen and (min-width: 1025px) {
+			line-height: 19.5px;
+		}
+
+		@media screen and (min-width: 2500px) {
+			font-size: 32px;
+			line-height: auto;
+		}
+	}
+}
+
+.l-header__container-bottom {
+	h2 {
+		font-size: 24px;
+		line-height: 47.08px;
+
+		@media screen and (min-width: 1025px) {
+			line-height: 29.26px;
+		}
+
+		@media screen and (min-width: 2500px) {
+			font-size: 48px;
+			line-height: auto;
+		}
+	}
+}
