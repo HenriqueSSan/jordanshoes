@@ -49,7 +49,7 @@ Os Requisitos cobrados serão:
 
 ### 📽 Screenshot
 
-![Image](./workspace/images/screenshot.png)
+![Image](./screenshot/JordanShoes.png)
 
 [<<< TOP](#contents)
 
