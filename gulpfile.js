@@ -41,7 +41,7 @@ function compilerStyles() {
 
 function server() {
 	connect.server({
-		port: 3000,
+		port: 3001,
 		livereload: true,
 		root: paths.output,
 	});
